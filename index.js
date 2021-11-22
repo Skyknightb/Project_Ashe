@@ -119,7 +119,7 @@ client.on('message', async message => {
     // Only try to join the sender's voice channel if they are in one themselves
     if (message.member.voice.channel) {
       const connection = await message.member.voice.channel.join();
-      const dispatcher = connection.play('http://celestialbeing.org.uk/audio/Ashe03.encounterGeneric.02.mp3');
+      const dispatcher = connection.play('https://static.wikia.nocookie.net/leagueoflegends/images/6/63/Ashe_Select_new.ogg');
       dispatcher.on('start', () => {
         console.log('audio.mp3 is now playing!');
       });
