@@ -4,12 +4,12 @@
   "private": true,
   "description": "All the world in one arrow - Ashe",
   "main": "index.js",
-  "engines": {
-    "node": "17.x"
-  }
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
+  },
+  "engines": {
+    "node": "17.x"
   },
   "dependencies": {
     "@discordjs/opus": "^0.2.1",
