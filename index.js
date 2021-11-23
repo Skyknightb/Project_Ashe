@@ -99,7 +99,7 @@ client.on('message', async message => {
     // Only try to join the sender's voice channel if they are in one themselves
     if (message.member.voice.channel) {
       const connection = await message.member.voice.channel.join();
-      const dispatcher = connection.play('http://celestialbeing.org.uk/audio/Ashe03.encounterGeneric.03.mp3');
+      const dispatcher = connection.play('https://static.wikia.nocookie.net/leagueoflegends/images/4/4a/Ashe03.encounterGeneric.03.ogg');
       dispatcher.on('start', () => {
         console.log('audio.mp3 is now playing!');
       });
@@ -139,7 +139,7 @@ client.on('message', async message => {
     // Only try to join the sender's voice channel if they are in one themselves
     if (message.member.voice.channel) {
       const connection = await message.member.voice.channel.join();
-      const dispatcher = connection.play('http://celestialbeing.org.uk/audio/Ashe03.encounterGeneric.01.mp3');
+      const dispatcher = connection.play('https://static.wikia.nocookie.net/leagueoflegends/images/6/6e/Ashe03.encounterGeneric.01.ogg');
       dispatcher.on('start', () => {
         console.log('audio.mp3 is now playing!');
       });
@@ -159,7 +159,7 @@ client.on('message', async message => {
     // Only try to join the sender's voice channel if they are in one themselves
     if (message.member.voice.channel) {
       const connection = await message.member.voice.channel.join();
-      const dispatcher = connection.play('http://celestialbeing.org.uk/audio/Ashe03.select.01.mp3');
+      const dispatcher = connection.play('https://static.wikia.nocookie.net/leagueoflegends/images/6/63/Ashe_Select_new.ogg');
       dispatcher.on('start', () => {
         console.log('audio.mp3 is now playing!');
       });
