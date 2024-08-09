@@ -1,6 +1,6 @@
 # Project_Ashe
 
-![Ashe_Icon](https://postimg.cc/1VycRcRy)
+![Ashe_Icon](https://i.postimg.cc/L51yTNrg/Ashe-Icon.png)
 
 Simple discord bot to show students how to make discord bots using NodeJs and DiscordJs
 
